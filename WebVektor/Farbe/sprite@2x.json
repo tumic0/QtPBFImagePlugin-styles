@@ -1,0 +1,506 @@
+{
+  "Bildung_Forschung": {
+    "x": 84,
+    "y": 48,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Feuerwehr": {
+    "x": 84,
+    "y": 92,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Gotteshaus": {
+    "x": 176,
+    "y": 132,
+    "width": 40,
+    "height": 72,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kapelle": {
+    "x": 296,
+    "y": 272,
+    "width": 32,
+    "height": 32,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kirche": {
+    "x": 52,
+    "y": 160,
+    "width": 32,
+    "height": 72,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Krankenhaus": {
+    "x": 84,
+    "y": 136,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Museum": {
+    "x": 84,
+    "y": 180,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Polizei": {
+    "x": 84,
+    "y": 224,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Parkhaus": {
+    "x": 84,
+    "y": 268,
+    "width": 44,
+    "height": 52,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Schloss_Burg": {
+    "x": 176,
+    "y": 204,
+    "width": 40,
+    "height": 72,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Schwimmbad": {
+    "x": 84,
+    "y": 320,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Windmuehle": {
+    "x": 220,
+    "y": 248,
+    "width": 36,
+    "height": 80,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Autobahnnummer": {
+    "x": 0,
+    "y": 0,
+    "width": 84,
+    "height": 56,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Bundesstrassennummer": {
+    "x": 0,
+    "y": 56,
+    "width": 84,
+    "height": 52,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Europastrassennummer": {
+    "x": 0,
+    "y": 108,
+    "width": 84,
+    "height": 52,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Turm": {
+    "x": 52,
+    "y": 232,
+    "width": 32,
+    "height": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kontrollturm": {
+    "x": 52,
+    "y": 296,
+    "width": 32,
+    "height": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kran": {
+    "x": 0,
+    "y": 160,
+    "width": 52,
+    "height": 76,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kraftwerk_Solar": {
+    "x": 0,
+    "y": 236,
+    "width": 52,
+    "height": 52,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kuehlturm": {
+    "x": 332,
+    "y": 0,
+    "width": 32,
+    "height": 72,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Radioteleskop": {
+    "x": 176,
+    "y": 276,
+    "width": 40,
+    "height": 80,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kirchturm": {
+    "x": 332,
+    "y": 72,
+    "width": 32,
+    "height": 32,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Brunnen": {
+    "x": 332,
+    "y": 104,
+    "width": 32,
+    "height": 32,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Wasserturm": {
+    "x": 332,
+    "y": 136,
+    "width": 32,
+    "height": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Sprungschanze": {
+    "x": 132,
+    "y": 0,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Anleger": {
+    "x": 0,
+    "y": 288,
+    "width": 52,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Antenne": {
+    "x": 260,
+    "y": 0,
+    "width": 36,
+    "height": 76,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Bake": {
+    "x": 364,
+    "y": 0,
+    "width": 28,
+    "height": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Freileitungsmast": {
+    "x": 296,
+    "y": 328,
+    "width": 16,
+    "height": 16,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Funkturm": {
+    "x": 220,
+    "y": 0,
+    "width": 40,
+    "height": 76,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Funkmast": {
+    "x": 260,
+    "y": 76,
+    "width": 36,
+    "height": 80,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kellereingang": {
+    "x": 332,
+    "y": 200,
+    "width": 32,
+    "height": 60,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kilometerstein": {
+    "x": 364,
+    "y": 64,
+    "width": 28,
+    "height": 36,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Leuchtfeuer": {
+    "x": 332,
+    "y": 260,
+    "width": 32,
+    "height": 84,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Leuchtturm": {
+    "x": 220,
+    "y": 76,
+    "width": 40,
+    "height": 84,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Schachtoeffnung": {
+    "x": 260,
+    "y": 156,
+    "width": 36,
+    "height": 28,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Wasserfall": {
+    "x": 132,
+    "y": 44,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Pegel": {
+    "x": 260,
+    "y": 184,
+    "width": 36,
+    "height": 36,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Stollenmundloch": {
+    "x": 260,
+    "y": 220,
+    "width": 36,
+    "height": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Wasserspiegelhoehe": {
+    "x": 260,
+    "y": 284,
+    "width": 36,
+    "height": 28,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Wasserrad": {
+    "x": 260,
+    "y": 312,
+    "width": 36,
+    "height": 40,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Denkmal": {
+    "x": 364,
+    "y": 240,
+    "width": 24,
+    "height": 48,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Windrad": {
+    "x": 296,
+    "y": 0,
+    "width": 36,
+    "height": 88,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Bildstock": {
+    "x": 364,
+    "y": 100,
+    "width": 28,
+    "height": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Grabhuegel": {
+    "x": 296,
+    "y": 88,
+    "width": 36,
+    "height": 36,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Grenzstein": {
+    "x": 364,
+    "y": 288,
+    "width": 24,
+    "height": 52,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Felsen": {
+    "x": 220,
+    "y": 160,
+    "width": 40,
+    "height": 40,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Hoehleneingang": {
+    "x": 296,
+    "y": 124,
+    "width": 36,
+    "height": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Campingplatz": {
+    "x": 132,
+    "y": 88,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kraftwerk": {
+    "x": 84,
+    "y": 0,
+    "width": 48,
+    "height": 48,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kraftwerk_Wasser": {
+    "x": 220,
+    "y": 200,
+    "width": 40,
+    "height": 48,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Umspannwerk": {
+    "x": 132,
+    "y": 132,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Laubbaum": {
+    "x": 364,
+    "y": 164,
+    "width": 28,
+    "height": 76,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Nadelbaum": {
+    "x": 296,
+    "y": 188,
+    "width": 36,
+    "height": 84,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Bahnhof": {
+    "x": 132,
+    "y": 176,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Flughafen": {
+    "x": 132,
+    "y": 220,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Hubschrauber": {
+    "x": 132,
+    "y": 264,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Parkplatz": {
+    "x": 132,
+    "y": 308,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Segelflugplatz": {
+    "x": 176,
+    "y": 0,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Haltepunkt": {
+    "x": 364,
+    "y": 340,
+    "width": 24,
+    "height": 24,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "S_Bahn": {
+    "x": 176,
+    "y": 44,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Strassenbahnhaltestelle": {
+    "x": 296,
+    "y": 304,
+    "width": 24,
+    "height": 24,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "U_Bahn": {
+    "x": 176,
+    "y": 88,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2,
+    "visible": true
+  }
+}
