@@ -250,7 +250,7 @@
             "filter": [
                 "==",
                 "kind_detail",
-                "2"
+                2
             ],
             "layout": {
                 "line-cap": "round",
@@ -282,7 +282,7 @@
             "filter": [
                 "==",
                 "kind_detail",
-                "4"
+                4
             ],
             "layout": {
                 "line-cap": "round",

@@ -4204,7 +4204,7 @@
         ["==","klasse","Kreisstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["==","anzahl","1"],
+        ["==","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -4241,7 +4241,7 @@
         ["==","klasse","Kreisstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["!=","anzahl","1"],
+        ["!=","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -4368,7 +4368,7 @@
         ["==","klasse","Landesstraße, Staatsstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["==","anzahl","1"],
+        ["==","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -4400,7 +4400,7 @@
         ["==","klasse","Landesstraße, Staatsstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["!=","anzahl","1"],
+        ["!=","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -4516,7 +4516,7 @@
         ["==","klasse","Bundesstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["==","anzahl","1"],
+        ["==","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -4548,7 +4548,7 @@
         ["==","klasse","Bundesstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["!=","anzahl","1"],
+        ["!=","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -5114,7 +5114,7 @@
         ["==","klasse","Kreisstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["==","anzahl","1"],
+        ["==","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -5146,7 +5146,7 @@
         ["==","klasse","Landesstraße, Staatsstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["==","anzahl","1"],
+        ["==","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -5178,7 +5178,7 @@
         ["==","klasse","Kreisstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["!=","anzahl","1"],
+        ["!=","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -5240,7 +5240,7 @@
         ["==","klasse","Landesstraße, Staatsstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["!=","anzahl","1"],
+        ["!=","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -5273,7 +5273,7 @@
         ["==","klasse","Bundesstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["==","anzahl","1"],
+        ["==","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -5305,7 +5305,7 @@
         ["==","klasse","Bundesstraße"],
         ["!has","fahrbahn"],
         ["!has","bauwerk"],
-        ["!=","anzahl","1"],
+        ["!=","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -5366,7 +5366,7 @@
       "filter": ["all",
         ["==","klasse","Bundesstraße"],
         ["!has","fahrbahn"],
-        ["!=","anzahl","1"]
+        ["!=","anzahl",1]
       ],
       "layout": {
         "visibility": "visible",
@@ -6611,7 +6611,7 @@
         ["==","klasse","Kreisstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["==","anzahl","1"]
+        ["==","anzahl",1]
       ],
       "layout": {
         "visibility": "visible",
@@ -6647,7 +6647,7 @@
         ["==","klasse","Kreisstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["!=","anzahl","1"]
+        ["!=","anzahl",1]
       ],
       "layout": {
         "visibility": "visible",
@@ -6744,7 +6744,7 @@
         ["==","klasse","Landesstraße, Staatsstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["==","anzahl","1"]
+        ["==","anzahl",1]
       ],
       "layout": {
         "visibility": "visible",
@@ -6775,7 +6775,7 @@
         ["==","klasse","Landesstraße, Staatsstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["!=","anzahl","1"]
+        ["!=","anzahl",1]
       ],
       "layout": {
         "visibility": "visible",
@@ -6867,7 +6867,7 @@
         ["==","klasse","Bundesstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["==","anzahl","1"]
+        ["==","anzahl",1]
       ],
       "layout": {
         "visibility": "visible",
@@ -6898,7 +6898,7 @@
         ["==","klasse","Bundesstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["!=","anzahl","1"]
+        ["!=","anzahl",1]
       ],
       "layout": {
         "visibility": "visible",
@@ -7567,7 +7567,7 @@
         ["==","klasse","Kreisstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["==","anzahl","1"],
+        ["==","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -7599,7 +7599,7 @@
         ["==","klasse","Kreisstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["!=","anzahl","1"],
+        ["!=","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -7694,7 +7694,7 @@
         ["==","klasse","Landesstraße, Staatsstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["==","anzahl","1"],
+        ["==","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -7726,7 +7726,7 @@
         ["==","klasse","Landesstraße, Staatsstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["!=","anzahl","1"],
+        ["!=","anzahl",1],
         ["!has","zustand"]
       ],
       "layout": {
@@ -7821,7 +7821,7 @@
         ["==","klasse","Bundesstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["==","anzahl","1"]
+        ["==","anzahl",1]
       ],
       "layout": {
         "visibility": "visible",
@@ -7852,7 +7852,7 @@
         ["==","klasse","Bundesstraße"],
         ["!has","fahrbahn"],
         ["in","bauwerk","Brücke","Drehbrücke","Hebebrücke","Bogenbrücke","Hochbahn, Hochstraße","Hängebrücke","Mehrstöckige Brücke","Pontonbrücke","Zugbrücke","Staudamm","Staumauer","Sperrwerk"],
-        ["!=","anzahl","1"]
+        ["!=","anzahl",1]
       ],
       "layout": {
         "visibility": "visible",
