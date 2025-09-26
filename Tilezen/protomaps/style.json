@@ -2209,10 +2209,7 @@
                 "text-font": [
                     "Noto Sans Italic"
                 ],
-                "text-field": [
-                    "get",
-                    "addr_housenumber"
-                ],
+                "text-field": "{addr_housenumber}",
                 "text-size": 12
             },
             "paint": {
@@ -2261,10 +2258,6 @@
                 "path"
             ],
             "layout": {
-                "symbol-sort-key": [
-                    "get",
-                    "min_zoom"
-                ],
                 "symbol-placement": "line",
                 "text-font": [
                     "Noto Sans Regular"
