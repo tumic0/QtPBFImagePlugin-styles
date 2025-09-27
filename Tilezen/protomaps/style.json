@@ -3040,7 +3040,7 @@
             "type": "symbol",
             "source": "protomaps",
             "source-layer": "places",
-            "maxzoom": 4,
+            "maxzoom": 5,
             "filter": [
                 "==",
                 "kind",
