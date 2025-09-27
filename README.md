@@ -15,5 +15,5 @@ There are (at least) eight incompatible MVT schemas out there:
 This repository contains Mapbox GL styles usable with QtPBFImagePlugin for
 each schema. The styles are copies (sometimes with minor tweaks) of the original
 styles created by Mapbox, OpenMapTiles, Apollo Mapping, Esri, ... before they
-have started to use expressions. The OrdnanceSurvey and the VersaTiles style are
-backports of the original styles without expressions.
+have started to use expressions. The OrdnanceSurvey, VersaTiles and Protomaps
+styles are backports of the original styles without expressions.
