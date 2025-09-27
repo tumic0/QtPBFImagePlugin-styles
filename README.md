@@ -8,7 +8,7 @@ There are (at least) eight incompatible MVT schemas out there:
 - Mapbox
 - OpenMapTiles (MapTiler, Mapilion)
 - Ordnance Survey
-- Tilezen (HERE, Nextzen)
+- Tilezen (HERE, Nextzen, Protomaps)
 - VersaTiles
 - WebVektor
 
