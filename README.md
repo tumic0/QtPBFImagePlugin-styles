@@ -2,13 +2,14 @@
 Styles for Mapbox vector tiles (MVT) usable with
 [QtPBFImagePlugin](https://github.com/tumic0/QtPBFImagePlugin).
 
-There are (at least) eight incompatible MVT schemas out there:
+There are (at least) nine incompatible MVT schemas out there:
 - Esri
 - IGN
 - Mapbox
 - OpenMapTiles (MapTiler, Mapilion)
 - Ordnance Survey
-- Tilezen (HERE, Nextzen, Protomaps)
+- Tilezen (HERE, Nextzen)
+- Protomaps
 - VersaTiles
 - WebVektor
 
