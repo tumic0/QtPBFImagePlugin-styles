@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "Bright",
+    "name": "Mapbox Bright",
     "metadata": {
         "mapbox:autocomposite": true,
         "mapbox:groups": {
