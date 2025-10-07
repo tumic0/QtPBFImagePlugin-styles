@@ -329,10 +329,96 @@
           "<=",
           "E",
           12
+        ],
+        [
+          "!has",
+          "C"
         ]
       ],
       "paint": {
         "line-color": "#d5cdc0",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-minor-bg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          11
+        ],
+        [
+          "<=",
+          "E",
+          12
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#d5cdc0",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        },
+        "line-dasharray": [
+          2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "roads-minor-bg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          11
+        ],
+        [
+          "<=",
+          "E",
+          12
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#666666",
         "line-width": {
           "base": 1.2,
           "stops": [
@@ -397,10 +483,96 @@
           "<=",
           "E",
           10
+        ],
+        [
+          "!has",
+          "C"
         ]
       ],
       "paint": {
         "line-color": "#dbd27b",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-major-bg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          9
+        ],
+        [
+          "<=",
+          "E",
+          10
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#dbd27b",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        },
+        "line-dasharray": [
+          2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "roads-major-bg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          9
+        ],
+        [
+          "<=",
+          "E",
+          10
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#666666",
         "line-width": {
           "base": 1.2,
           "stops": [
@@ -455,12 +627,91 @@
       "type": "line",
       "source-layer": "L",
       "filter": [
-        "==",
-        "E",
-        8
+        "all",
+        [
+          "==",
+          "E",
+          8
+        ],
+        [
+          "!has",
+          "C"
+        ]
       ],
       "paint": {
         "line-color": "#e8a541",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-trunk-bg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          8
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#e8a541",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        },
+        "line-dasharray": [
+          2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "roads-trunk-bg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          8
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#666666",
         "line-width": {
           "base": 1.2,
           "stops": [
@@ -507,12 +758,91 @@
       "type": "line",
       "source-layer": "L",
       "filter": [
-        "==",
-        "E",
-        7
+        "all",
+        [
+          "==",
+          "E",
+          7
+        ],
+        [
+          "!has",
+          "C"
+        ]
       ],
       "paint": {
         "line-color": "#72a35a",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              4
+            ],
+            [
+              20,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-motorway-bg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          7
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#72a35a",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              4
+            ],
+            [
+              20,
+              10
+            ]
+          ]
+        },
+        "line-dasharray": [
+          2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "roads-motorway-bg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          7
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#666666",
         "line-width": {
           "base": 1.2,
           "stops": [
