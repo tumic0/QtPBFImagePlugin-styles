@@ -61,6 +61,19 @@
       }
     },
     {
+      "id": "glacier",
+      "type": "fill",
+      "source-layer": "F",
+      "filter": [
+        "==",
+        "E",
+        5
+      ],
+      "paint": {
+        "fill-color": "#ddf1fd"
+      }
+    },
+    {
       "id": "rock",
       "type": "fill",
       "source-layer": "F",
