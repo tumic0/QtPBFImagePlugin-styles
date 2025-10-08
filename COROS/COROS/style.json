@@ -87,6 +87,27 @@
       }
     },
     {
+      "id": "pedestrian-highway",
+      "type": "fill",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          13
+        ],
+        [
+          "==",
+          "$type",
+          "Polygon"
+        ]
+      ],
+      "paint": {
+        "fill-color": "#ffffff"
+      }
+    },
+    {
       "id": "water",
       "type": "fill",
       "source-layer": "N",
@@ -104,6 +125,413 @@
       }
     },
     {
+      "id": "roads-minor-bg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          11
+        ],
+        [
+          "<=",
+          "E",
+          12
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#d5cdc0",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        },
+        "line-dasharray": [
+          2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "roads-minor-fg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          11
+        ],
+        [
+          "<=",
+          "E",
+          12
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              2
+            ],
+            [
+              20,
+              6
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-major-bg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          9
+        ],
+        [
+          "<=",
+          "E",
+          10
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#dbd27b",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        },
+        "line-dasharray": [
+          2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "roads-major-fg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          9
+        ],
+        [
+          "<=",
+          "E",
+          10
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#faef75",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              2
+            ],
+            [
+              20,
+              6
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-trunk-bg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          8
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#e8a541",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        },
+        "line-dasharray": [
+          2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "roads-trunk-fg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          8
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#ffcc78",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              2
+            ],
+            [
+              20,
+              6
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-motorway-bg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          7
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#72a35a",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              4
+            ],
+            [
+              20,
+              10
+            ]
+          ]
+        },
+        "line-dasharray": [
+          2,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "roads-motorway-fg-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          7
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#9bd772",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              7
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "railways-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "maxzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          2
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#717171",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              1
+            ],
+            [
+              16,
+              2
+            ]
+          ]
+        },
+        "line-dasharray": [
+          4,
+          2
+        ]
+      }
+    },
+    {
+      "id": "railways-16-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          2
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#717171",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              2
+            ],
+            [
+              20,
+              4
+            ]
+          ]
+        },
+        "line-dasharray": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "runways-polygons",
+      "type": "fill",
+      "source-layer": "B",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Polygon"
+        ],
+        [
+          ">",
+          "E",
+          1
+        ]
+      ],
+      "paint": {
+        "fill-color": "#ffffff"
+      }
+    },
+    {
       "id": "runways-3",
       "type": "line",
       "source-layer": "B",
@@ -118,6 +546,11 @@
           ">",
           "E",
           1
+        ],
+        [
+          "==",
+          "$type",
+          "LineString"           
         ]
       ],
       "paint": {
@@ -142,9 +575,17 @@
       "type": "line",
       "source-layer": "B",
       "filter": [
-        ">",
-        "E",
-        3
+        "all",
+        [
+          ">",
+          "E",
+          3
+        ],
+        [
+          "==",
+          "$type",
+          "LineString"         
+        ]
       ],
       "paint": {
         "line-color": "#ffffff",
@@ -161,91 +602,6 @@
             ]
           ]
         }
-      }
-    },
-    {
-      "id": "railways",
-      "type": "line",
-      "source-layer": "L",
-      "maxzoom": 16,
-      "filter": [
-        "==",
-        "E",
-        2
-      ],
-      "paint": {
-        "line-color": "#717171",
-        "line-width": {
-          "base": 1.2,
-          "stops": [
-            [
-              10,
-              1
-            ],
-            [
-              16,
-              2
-            ]
-          ]
-        }
-      }
-    },
-    {
-      "id": "railways-16-bg",
-      "type": "line",
-      "source-layer": "L",
-      "minzoom": 16,
-      "filter": [
-        "==",
-        "E",
-        2
-      ],
-      "paint": {
-        "line-color": "#717171",
-        "line-width": {
-          "base": 1.2,
-          "stops": [
-            [
-              10,
-              2
-            ],
-            [
-              20,
-              4
-            ]
-          ]
-        }
-      }
-    },
-    {
-      "id": "railways-16-fg",
-      "type": "line",
-      "source-layer": "L",
-      "minzoom": 16,
-      "filter": [
-        "==",
-        "E",
-        2
-      ],
-      "paint": {
-        "line-color": "#ffffff",
-        "line-width": {
-          "base": 1.2,
-          "stops": [
-            [
-              10,
-              2
-            ],
-            [
-              20,
-              4
-            ]
-          ]
-        },
-        "line-dasharray": [
-          4,
-          4
-        ]
       }
     },
     {
@@ -353,88 +709,6 @@
       }
     },
     {
-      "id": "roads-minor-bg-tunnel",
-      "type": "line",
-      "source-layer": "L",
-      "filter": [
-        "all",
-        [
-          ">=",
-          "E",
-          11
-        ],
-        [
-          "<=",
-          "E",
-          12
-        ],
-        [
-          "==",
-          "C",
-          2
-        ]
-      ],
-      "paint": {
-        "line-color": "#d5cdc0",
-        "line-width": {
-          "base": 1.2,
-          "stops": [
-            [
-              10,
-              3
-            ],
-            [
-              20,
-              8
-            ]
-          ]
-        },
-        "line-dasharray": [
-          2,
-          0.5
-        ]
-      }
-    },
-    {
-      "id": "roads-minor-bg-bridge",
-      "type": "line",
-      "source-layer": "L",
-      "filter": [
-        "all",
-        [
-          ">=",
-          "E",
-          11
-        ],
-        [
-          "<=",
-          "E",
-          12
-        ],
-        [
-          "==",
-          "C",
-          1
-        ]
-      ],
-      "paint": {
-        "line-color": "#666666",
-        "line-width": {
-          "base": 1.2,
-          "stops": [
-            [
-              10,
-              3
-            ],
-            [
-              20,
-              8
-            ]
-          ]
-        }
-      }
-    },
-    {
       "id": "roads-minor-fg",
       "type": "line",
       "source-layer": "L",
@@ -449,6 +723,10 @@
           "<=",
           "E",
           12
+        ],
+        [
+          "!has",
+          "C"
         ]
       ],
       "paint": {
@@ -507,88 +785,6 @@
       }
     },
     {
-      "id": "roads-major-bg-tunnel",
-      "type": "line",
-      "source-layer": "L",
-      "filter": [
-        "all",
-        [
-          ">=",
-          "E",
-          9
-        ],
-        [
-          "<=",
-          "E",
-          10
-        ],
-        [
-          "==",
-          "C",
-          2
-        ]
-      ],
-      "paint": {
-        "line-color": "#dbd27b",
-        "line-width": {
-          "base": 1.2,
-          "stops": [
-            [
-              10,
-              3
-            ],
-            [
-              20,
-              8
-            ]
-          ]
-        },
-        "line-dasharray": [
-          2,
-          0.5
-        ]
-      }
-    },
-    {
-      "id": "roads-major-bg-bridge",
-      "type": "line",
-      "source-layer": "L",
-      "filter": [
-        "all",
-        [
-          ">=",
-          "E",
-          9
-        ],
-        [
-          "<=",
-          "E",
-          10
-        ],
-        [
-          "==",
-          "C",
-          1
-        ]
-      ],
-      "paint": {
-        "line-color": "#666666",
-        "line-width": {
-          "base": 1.2,
-          "stops": [
-            [
-              10,
-              3
-            ],
-            [
-              20,
-              8
-            ]
-          ]
-        }
-      }
-    },
-    {
       "id": "roads-major-fg",
       "type": "line",
       "source-layer": "L",
@@ -603,6 +799,10 @@
           "<=",
           "E",
           10
+        ],
+        [
+          "!has",
+          "C"
         ]
       ],
       "paint": {
@@ -656,85 +856,20 @@
       }
     },
     {
-      "id": "roads-trunk-bg-tunnel",
-      "type": "line",
-      "source-layer": "L",
-      "filter": [
-        "all",
-        [
-          "==",
-          "E",
-          8
-        ],
-        [
-          "==",
-          "C",
-          2
-        ]
-      ],
-      "paint": {
-        "line-color": "#e8a541",
-        "line-width": {
-          "base": 1.2,
-          "stops": [
-            [
-              10,
-              3
-            ],
-            [
-              20,
-              8
-            ]
-          ]
-        },
-        "line-dasharray": [
-          2,
-          0.5
-        ]
-      }
-    },
-    {
-      "id": "roads-trunk-bg-bridge",
-      "type": "line",
-      "source-layer": "L",
-      "filter": [
-        "all",
-        [
-          "==",
-          "E",
-          8
-        ],
-        [
-          "==",
-          "C",
-          1
-        ]
-      ],
-      "paint": {
-        "line-color": "#666666",
-        "line-width": {
-          "base": 1.2,
-          "stops": [
-            [
-              10,
-              3
-            ],
-            [
-              20,
-              8
-            ]
-          ]
-        }
-      }
-    },
-    {
       "id": "roads-trunk-fg",
       "type": "line",
       "source-layer": "L",
       "filter": [
-        "==",
-        "E",
-        8
+        "all",
+        [
+          "==",
+          "E",
+          8
+        ],
+        [
+          "!has",
+          "C"
+        ]
       ],
       "paint": {
         "line-color": "#ffcc78",
@@ -787,7 +922,7 @@
       }
     },
     {
-      "id": "roads-motorway-bg-tunnel",
+      "id": "roads-motorway-fg",
       "type": "line",
       "source-layer": "L",
       "filter": [
@@ -798,30 +933,355 @@
           7
         ],
         [
-          "==",
-          "C",
-          2
+          "!has",
+          "C"
         ]
       ],
       "paint": {
-        "line-color": "#72a35a",
+        "line-color": "#9bd772",
         "line-width": {
           "base": 1.2,
           "stops": [
             [
               10,
-              4
+              3
             ],
             [
               20,
-              10
+              7
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "railways",
+      "type": "line",
+      "source-layer": "L",
+      "maxzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          2
+        ],
+        [
+          "!has",
+          "C"
+        ]
+      ],
+      "paint": {
+        "line-color": "#717171",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              1
+            ],
+            [
+              16,
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "railways-16-bg",
+      "type": "line",
+      "source-layer": "L",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          2
+        ],
+        [
+          "!has",
+          "C"
+        ]
+      ],
+      "paint": {
+        "line-color": "#717171",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              2
+            ],
+            [
+              20,
+              4
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "railways-16-fg",
+      "type": "line",
+      "source-layer": "L",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          2
+        ],
+        [
+          "!has",
+          "C"
+        ]
+      ],
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              2
+            ],
+            [
+              20,
+              4
             ]
           ]
         },
         "line-dasharray": [
-          2,
-          0.5
+          4,
+          4
         ]
+      }
+    },
+    {
+      "id": "roads-minor-bg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          11
+        ],
+        [
+          "<=",
+          "E",
+          12
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#666666",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-minor-fg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          11
+        ],
+        [
+          "<=",
+          "E",
+          12
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              2
+            ],
+            [
+              20,
+              6
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-major-bg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          9
+        ],
+        [
+          "<=",
+          "E",
+          10
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#666666",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-major-fg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "E",
+          9
+        ],
+        [
+          "<=",
+          "E",
+          10
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#faef75",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              2
+            ],
+            [
+              20,
+              6
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-trunk-bg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          8
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#666666",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              3
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roads-trunk-fg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          8
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#ffcc78",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              2
+            ],
+            [
+              20,
+              6
+            ]
+          ]
+        }
       }
     },
     {
@@ -859,13 +1319,21 @@
       }
     },
     {
-      "id": "roads-motorway-fg",
+      "id": "roads-motorway-fg-bridge",
       "type": "line",
       "source-layer": "L",
       "filter": [
-        "==",
-        "E",
-        7
+        "all",
+        [
+          "==",
+          "E",
+          7
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
       ],
       "paint": {
         "line-color": "#9bd772",
@@ -882,6 +1350,165 @@
             ]
           ]
         }
+      }
+    },
+    {
+      "id": "railways-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "maxzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          2
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#717171",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              1
+            ],
+            [
+              16,
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "railways-16-bg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          2
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#717171",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              2
+            ],
+            [
+              20,
+              4
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "railways-16-fg-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          2
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              10,
+              2
+            ],
+            [
+              20,
+              4
+            ]
+          ]
+        },
+        "line-dasharray": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "drinking-water",
+      "type": "symbol",
+      "source-layer": "K",
+      "minzoom": 16,
+      "filter": [
+        "==",
+        "E",
+        54
+      ],
+      "layout": {
+        "icon-image": "water-11",
+        "text-font": [
+          "Roboto Condensed Italic"
+        ],
+        "text-anchor": "left",
+        "text-field": "{X}",
+        "text-size": 10
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
+      }
+    },
+    {
+      "id": "toilets",
+      "type": "symbol",
+      "source-layer": "K",
+      "minzoom": 16,
+      "filter": [
+        "==",
+        "E",
+        53
+      ],
+      "layout": {
+        "icon-image": "toilet-11",
+        "text-font": [
+          "Roboto Condensed Italic"
+        ],
+        "text-anchor": "left",
+        "text-field": "{X}",
+        "text-size": 10
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
       }
     },
     {
@@ -1399,6 +2026,54 @@
       },
       "paint": {
         "text-color": "#000000",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "stream_labels",
+      "type": "symbol",
+      "source-layer": "P",
+      "filter": [
+        "<=",
+        "E",
+        1
+      ],
+      "layout": {
+        "symbol-placement": "line",
+        "text-anchor": "center",
+        "text-field": "{X}",
+        "text-font": [
+          "Roboto Italic"
+        ],
+        "text-size": 10
+      },
+      "paint": {
+        "text-color": "#9fc4e1",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "river_labels",
+      "type": "symbol",
+      "source-layer": "P",
+      "filter": [
+        ">",
+        "E",
+        1
+      ],
+      "layout": {
+        "symbol-placement": "line",
+        "text-anchor": "center",
+        "text-field": "{X}",
+        "text-font": [
+          "Roboto Italic"
+        ],
+        "text-size": 12
+      },
+      "paint": {
+        "text-color": "#9fc4e1",
         "text-halo-color": "#ffffff",
         "text-halo-width": 1
       }

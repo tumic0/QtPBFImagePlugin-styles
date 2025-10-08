@@ -104,25 +104,39 @@
     "x": 22,
     "y": 33
   },
-  "triangle-11": {
+  "toilet-11": {
     "height": 11,
     "pixelRatio": 1,
     "width": 11,
     "x": 33,
     "y": 33
   },
-  "viewpoint-11": {
+  "triangle-11": {
     "height": 11,
     "pixelRatio": 1,
     "width": 11,
     "x": 44,
     "y": 0
   },
+  "viewpoint-11": {
+    "height": 11,
+    "pixelRatio": 1,
+    "width": 11,
+    "x": 55,
+    "y": 0
+  },
+  "water-11": {
+    "height": 11,
+    "pixelRatio": 1,
+    "width": 11,
+    "x": 66,
+    "y": 0
+  },
   "wetland": {
     "height": 4,
     "pixelRatio": 1,
     "width": 4,
-    "x": 55,
+    "x": 77,
     "y": 0
   }
 }
