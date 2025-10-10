@@ -193,6 +193,27 @@
       }
     },
     {
+      "id": "aerialways-buildings",
+      "type": "fill",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          1
+        ],
+        [
+          "==",
+          "$type",
+          "Polygon"
+        ]
+      ],
+      "paint": {
+        "fill-color": "#dbd0b6"
+      }
+    },
+    {
       "id": "roads-minor-bg-tunnel",
       "type": "line",
       "source-layer": "L",
@@ -1126,6 +1147,40 @@
           4,
           4
         ]
+      }
+    },
+    {
+      "id": "aerialways",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          1
+        ],
+        [
+          "==",
+          "$type",
+          "LineString"
+        ]
+      ],
+      "paint": {
+        "line-color": "#000000",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              5,
+              1
+            ],
+            [
+              20,
+              3
+            ]
+          ]
+        }
       }
     },
     {
