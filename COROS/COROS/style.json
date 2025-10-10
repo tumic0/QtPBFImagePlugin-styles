@@ -172,7 +172,7 @@
       }
     },
     {
-      "id": "pedestrian-highway",
+      "id": "squares",
       "type": "fill",
       "source-layer": "L",
       "filter": [
