@@ -100,6 +100,78 @@
       }
     },
     {
+      "id": "water",
+      "type": "fill",
+      "source-layer": "N",
+      "paint": {
+        "fill-color": "#9fc4e1"
+      }
+    },
+    {
+      "id": "waterway",
+      "type": "line",
+      "source-layer": "P",
+      "paint": {
+        "line-color": "#9fc4e1",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "peers-areas",
+      "type": "fill",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          4
+        ],
+        [
+          "==",
+          "$type",
+          "Polygon"
+        ]
+      ],
+      "paint": {
+        "fill-color": "#ededed"
+      }
+    },
+    {
+      "id": "peers",
+      "type": "line",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          4
+        ],
+        [
+          "==",
+          "$type",
+          "LineString"
+        ]
+      ],
+      "paint": {
+        "line-color": "#ededed",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              5,
+              1
+            ],
+            [
+              20,
+              3
+            ]
+          ]
+        }
+      }
+    },
+    {
       "id": "pedestrian-highway",
       "type": "fill",
       "source-layer": "L",
@@ -118,23 +190,6 @@
       ],
       "paint": {
         "fill-color": "#ffffff"
-      }
-    },
-    {
-      "id": "water",
-      "type": "fill",
-      "source-layer": "N",
-      "paint": {
-        "fill-color": "#9fc4e1"
-      }
-    },
-    {
-      "id": "waterway",
-      "type": "line",
-      "source-layer": "P",
-      "paint": {
-        "line-color": "#9fc4e1",
-        "line-width": 1
       }
     },
     {
