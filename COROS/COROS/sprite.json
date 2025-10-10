@@ -69,6 +69,13 @@
     "x": 11,
     "y": 22
   },
+  "nature-reserve": {
+    "height": 4,
+    "pixelRatio": 1,
+    "width": 4,
+    "x": 77,
+    "y": 0
+  },
   "park-11": {
     "height": 11,
     "pixelRatio": 1,
@@ -136,7 +143,7 @@
     "height": 4,
     "pixelRatio": 1,
     "width": 4,
-    "x": 77,
+    "x": 81,
     "y": 0
   }
 }

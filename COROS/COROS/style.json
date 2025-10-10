@@ -117,6 +117,19 @@
       }
     },
     {
+      "id": "nature-reserves",
+      "type": "fill",
+      "source-layer": "I",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "paint": {
+        "fill-pattern": "nature-reserve"
+      }
+    },
+    {
       "id": "peers-areas",
       "type": "fill",
       "source-layer": "L",
@@ -135,6 +148,27 @@
       ],
       "paint": {
         "fill-color": "#ededed"
+      }
+    },
+    {
+      "id": "bridges",
+      "type": "fill",
+      "source-layer": "L",
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          5
+        ],
+        [
+          "==",
+          "$type",
+          "Polygon"
+        ]
+      ],
+      "paint": {
+        "fill-color": "#ffffff"
       }
     },
     {
@@ -519,6 +553,45 @@
             ]
           ]
         }
+      }
+    },
+    {
+      "id": "trams-tunnel",
+      "type": "line",
+      "source-layer": "L",
+      "minzoom": 15,
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          3
+        ],
+        [
+          "==",
+          "C",
+          2
+        ]
+      ],
+      "paint": {
+        "line-color": "#717171",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              20,
+              2
+            ]
+          ]
+        },
+        "line-dasharray": [
+          4,
+          2
+        ]
       }
     },
     {
@@ -1044,6 +1117,40 @@
       }
     },
     {
+      "id": "trams",
+      "type": "line",
+      "source-layer": "L",
+      "minzoom": 15,
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          3
+        ],
+        [
+          "!has",
+          "C"
+        ]
+      ],
+      "paint": {
+        "line-color": "#717171",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              20,
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
       "id": "railways",
       "type": "line",
       "source-layer": "L",
@@ -1470,6 +1577,41 @@
             [
               20,
               7
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "trams-bridge",
+      "type": "line",
+      "source-layer": "L",
+      "minzoom": 15,
+      "filter": [
+        "all",
+        [
+          "==",
+          "E",
+          3
+        ],
+        [
+          "==",
+          "C",
+          1
+        ]
+      ],
+      "paint": {
+        "line-color": "#717171",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              15,
+              1
+            ],
+            [
+              20,
+              2
             ]
           ]
         }
