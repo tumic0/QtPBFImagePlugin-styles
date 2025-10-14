@@ -2,9 +2,10 @@
 Styles for Mapbox vector tiles (MVT) usable with
 [QtPBFImagePlugin](https://github.com/tumic0/QtPBFImagePlugin).
 
-There are (at least) ten incompatible MVT schemas out there:
+There are (at least) eleven incompatible MVT schemas out there:
 - COROS
 - Esri
+- GSI
 - IGN
 - Mapbox
 - OpenMapTiles (MapTiler, Mapilion)
@@ -17,6 +18,6 @@ There are (at least) ten incompatible MVT schemas out there:
 This repository contains Mapbox GL styles usable with QtPBFImagePlugin for
 each schema. The styles are copies (sometimes with minor tweaks) of the original
 styles created by Mapbox, OpenMapTiles, Apollo Mapping, Esri, ... before they
-have started to use expressions. The OrdnanceSurvey, VersaTiles and Protomaps
-styles are backports of the original styles without expressions and the COROS
-style was made from scratch.
+have started to use expressions. The OrdnanceSurvey, GSI, VersaTiles and
+Protomaps styles are backports of the original styles without expressions and
+the COROS style was made from scratch.
