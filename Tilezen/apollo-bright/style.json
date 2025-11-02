@@ -1,28 +1,6 @@
 {
-    "id": "apollomapping-bright-osm-modified",
-    "version": 8,
     "name": "Apollo Bright (OSM)",
-    "metadata": {},
-    "sources": {
-        "osm": {
-            "type": "vector",
-            "tiles": [
-                "{tile_server_xyz_url}"
-            ]
-        },
-        "natural_earth_2": {
-            "maxzoom": 5,
-            "tileSize": 512,
-            "tiles": [
-                "https://a.basemap.mapmavin.com/natural-earth-2/{z}/{x}/{y}.png",
-                "https://b.basemap.mapmavin.com/natural-earth-2/{z}/{x}/{y}.png",
-                "https://c.basemap.mapmavin.com/natural-earth-2/{z}/{x}/{y}.png"
-            ],
-            "type": "raster"
-        }
-    },
-    "sprite": "{resource_url}/sprites/apollo-bright-icons",
-    "glyphs": "{resource_url}/tile_fonts/{fontstack}/{range}.pbf",
+    "sprite": "file:sprite",
     "layers": [
         {
             "id": "background",
@@ -36,28 +14,10 @@
             ]
         },
         {
-            "id": "natural_earth",
-            "type": "raster",
-            "source": "natural_earth_2",
-            "maxzoom": 5,
-            "layout": {
-                "visibility": "visible"
-            },
-            "paint": {
-                "raster-opacity": {
-                    "base": 1.5,
-                    "stops": [
-                        [
-                            0,
-                            0.6
-                        ],
-                        [
-                            6,
-                            0.1
-                        ]
-                    ]
-                }
-            }
+            "id": "hillshading",
+            "type": "hillshade",
+            "minzoom": 8,
+            "maxzoom": 15
         },
         {
             "id": "airport-landuse-fill",

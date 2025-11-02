@@ -1,28 +1,6 @@
 {
-  "id": "bm_web_col",
-  "version": 8,
-  "name": "bm_web_col",
-  "metadata": {
-    "basemapde:style-version": 3.1,
-    "mapbox:autocomposite": false,
-    "mapbox:type": "template",
-    "maputnik:renderer": "mbgljs"
-  },
-  "center": [10,51],
-  "zoom": 6,
-  "glyphs": "https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/fonts/{fontstack}/{range}.pbf",
-  "sprite": "https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/sprites/bm_web_col_sprite",
-  "transition": {
-    "duration": 300,
-    "delay": 0
-  },
-  "sources": {
-    "smarttiles_de": {
-      "type": "vector",
-      "attribution": "&copy; 2023 basemap.de / BKG | Datenquellen: © GeoBasis-DE",
-      "url": "https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/tiles/v1/bm_web_de_3857/bm_web_de_3857.json"
-    }
-  },
+  "name": "WebVector",
+  "sprite": "file:sprite",
   "layers": [
     {
       "id": "Hintergrund",

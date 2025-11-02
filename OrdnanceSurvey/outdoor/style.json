@@ -1,50 +1,6 @@
 {
-    "version": 8,
-    "name": "OS Open Zoomstack - Outdoor",
-    "metadata": {
-        "mapbox:autocomposite": true,
-        "mapbox:type": "template",
-        "mapbox:sdk-support": {
-            "js": "0.50.0",
-            "android": "6.7.0",
-            "ios": "4.6.0"
-        },
-        "mapbox:groups": {
-            "e196265c0e550aaddd2885dc32fdb674": {
-                "name": "Names Group",
-                "collapsed": false
-            },
-            "2a680f24b0d35061ed7d21fd33c9cf08": {
-                "name": "Road Level 0 Group",
-                "collapsed": true
-            },
-            "52c81d2ff926c87a0714f2697b2f3694": {
-                "name": "Road Level 1 Group",
-                "collapsed": true
-            },
-            "0845f59ef0d52359da6fd788b079f747": {
-                "name": "Road Level 2 Group",
-                "collapsed": true
-            },
-            "beaf4956fb8a63410ecf80abdebcdfb5": {
-                "name": "Road Names Group",
-                "collapsed": true
-            }
-        }
-    },
-    "center": [-1.7245239450279541, 52.53946123863224],
-    "zoom": 14.693012568240825,
-    "bearing": -4.923841430083372,
-    "pitch": 4.5,
-    "light": {"intensity": 0.25, "color": "hsl(0, 0%, 100%)"},
-    "sources": {
-        "composite": {
-            "url": "mapbox://ADD-SOURCE-URL-HERE",
-            "type": "vector"
-        }
-    },
-    "sprite": "mapbox://sprites/ordnancesurvey/cjqzn7wul164r2ro6u6awxepx",
-    "glyphs": "mapbox://fonts/ordnancesurvey/{fontstack}/{range}.pbf",
+    "name": "OrdnanceSurvey",
+    "sprite": "file:sprite",
     "layers": [
         {
             "id": "background",
