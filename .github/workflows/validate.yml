@@ -19,4 +19,4 @@ jobs:
       - name: Install mapbox-gl-style-spec
         run: npm i @mapbox/mapbox-gl-style-spec
       - name: Run mapbox-gl-style-spec
-        run: find . -name style.json | while read FILE; do do echo "Validating $FILE"; npx gl-style-validate "$FILE"; done
+        run: find . -name style.json | while read FILE; do echo "Validating $FILE"; npx gl-style-validate "$FILE"; done
