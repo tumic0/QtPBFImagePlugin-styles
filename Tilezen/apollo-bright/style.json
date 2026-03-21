@@ -7,6 +7,10 @@
         "osm": {
             "type": "vector",
             "url": "dummy:"
+        },
+        "dem": {
+            "type": "raster-dem",
+            "url": "dummy:"
         }
     },
     "layers": [
@@ -24,6 +28,7 @@
         {
             "id": "hillshading",
             "type": "hillshade",
+            "source": "dem",
             "minzoom": 8,
             "maxzoom": 15
         },
