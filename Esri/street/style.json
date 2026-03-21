@@ -3,10 +3,10 @@
     "name": "Esri",
     "sprite": "file:sprite",
     "glyphs": "dummy:{fontstack}/{range}",
-        "sources": {
-            "esri": {
-                "type": "vector",
-                "url": "dummy:"
+    "sources": {
+        "esri": {
+            "type": "vector",
+            "url": "dummy:"
         }
     },
     "layers": [

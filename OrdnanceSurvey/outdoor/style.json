@@ -3,10 +3,10 @@
     "name": "OrdnanceSurvey",
     "sprite": "file:sprite",
     "glyphs": "dummy:{fontstack}/{range}",
-        "sources": {
-            "composite": {
-                "type": "vector",
-                "url": "dummy:"
+    "sources": {
+        "composite": {
+            "type": "vector",
+            "url": "dummy:"
         }
     },
     "layers": [
