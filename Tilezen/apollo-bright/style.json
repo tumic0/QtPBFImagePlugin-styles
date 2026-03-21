@@ -1,6 +1,14 @@
 {
+    "version": 8,
     "name": "Apollo Bright (OSM)",
     "sprite": "file:sprite",
+    "glyphs": "dummy:{fontstack}/{range}",
+    "sources": {
+        "osm": {
+            "type": "vector",
+            "url": "dummy:"
+        }
+    },
     "layers": [
         {
             "id": "background",
