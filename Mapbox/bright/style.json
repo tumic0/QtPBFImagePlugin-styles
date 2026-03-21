@@ -1,6 +1,14 @@
 {
+    "version": 8,
     "name": "Mapbox",
     "sprite": "file:sprite",
+    "glyphs": "dummy:{fontstack}/{range}",
+    "sources": {
+        "mapbox": {
+            "type": "vector",
+            "url": "dummy:"
+        }
+    },
     "layers": [
         {
             "id": "background",
