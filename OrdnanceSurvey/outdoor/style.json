@@ -1,6 +1,14 @@
 {
+    "version": 8,
     "name": "OrdnanceSurvey",
     "sprite": "file:sprite",
+    "glyphs": "dummy:{fontstack}/{range}",
+        "sources": {
+            "composite": {
+                "type": "vector",
+                "url": "dummy:"
+        }
+    },
     "layers": [
         {
             "id": "background",
