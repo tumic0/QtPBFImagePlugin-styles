@@ -1,6 +1,14 @@
 {
+  "version": 8,
   "name": "GSI",
   "sprite": "file:sprite",
+  "glyphs": "dummy:{fontstack}/{range}",
+  "sources": {
+    "gsibv-vectortile-source-1-4-16": {
+      "type": "vector",
+      "url": "dummy:"
+    }
+  },
   "layers": [
     {
       "id": "gsibv-vectortile-layer-761",
