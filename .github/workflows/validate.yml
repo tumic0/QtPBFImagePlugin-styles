@@ -3,7 +3,7 @@ name: gl-style-validate
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
