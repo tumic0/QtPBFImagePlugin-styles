@@ -1,6 +1,14 @@
 {
+  "version": 8,
   "name": "Klokantech Basic",
   "sprite": "file:sprite",
+  "glyphs": "dummy:{fontstack}/{range}",
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "dummy:"
+    }
+  },
   "layers": [
     {
       "id": "background",
