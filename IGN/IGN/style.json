@@ -1,6 +1,14 @@
 {
+  "version": 8,
   "name": "IGN",
   "sprite": "file:sprite",
+  "glyphs": "dummy:{fontstack}/{range}",
+  "sources": {
+    "plan_ign": {
+      "type": "vector",
+      "url": "dummy:"
+    }
+  },
   "layers": [
     {
       "id": "bckgrd",
