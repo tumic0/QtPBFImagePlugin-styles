@@ -390,7 +390,7 @@
             "layout": {"line-cap": "round", "line-join": "round"},
             "paint": {
                 "line-width": {
-                    "base:": 1.0,
+                    "base": 1.0,
                     "stops": [
                         [5, 0.35],
                         [10, 1.5],
@@ -1679,7 +1679,7 @@
                     ]
                 },
                 "symbol-spacing": {
-                    "base:": 1.0,
+                    "base": 1.0,
                     "stops": [
                         [10, 25],
                         [15, 97],
