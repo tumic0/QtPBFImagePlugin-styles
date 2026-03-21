@@ -1,6 +1,18 @@
 {
+  "version": 8,
   "name": "OpenTopoMap",
   "sprite": "file:sprite",
+  "glyphs": "dummy:{fontstack}/{range}",
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "dummy:"
+    },
+    "dem": {
+      "type": "raster-dem",
+      "url": "dummy:"
+    }
+  },
   "layers": [
     {
       "id": "background",
@@ -12,122 +24,9 @@
     {
       "id": "hillshading",
       "type": "hillshade",
+      "source": "dem",
       "minzoom": 8,
       "maxzoom": 15
-    },
-    {
-      "id": "contour_label",
-      "type": "symbol",
-      "metadata": {},
-      "source": "contours",
-      "source-layer": "contour",
-      "filter": [
-        "all",
-        [
-          "==",
-          "$type",
-          "LineString"
-        ],
-        [
-          "in",
-          "nth_line",
-          100,
-          50,
-          10
-        ],
-        [
-          ">",
-          "height",
-          0
-        ]
-      ],
-      "layout": {
-        "text-size": {
-          "base": 1,
-          "stops": [
-            [
-              15,
-              9.5
-            ],
-            [
-              20,
-              12
-            ]
-          ]
-        },
-        "text-allow-overlap": false,
-        "symbol-avoid-edges": true,
-        "text-ignore-placement": false,
-        "symbol-placement": "line",
-        "text-padding": 10,
-        "text-rotation-alignment": "map",
-        "text-field": "{height} m",
-        "text-font": [
-          "Noto Sans Regular"
-        ]
-      },
-      "paint": {
-        "text-color": "hsl(0, 0%, 37%)",
-        "text-halo-color": "hsla(0, 0%, 100%, 0.5)",
-        "text-halo-width": 1.5
-      }
-    },
-    {
-      "id": "contour_index",
-      "type": "line",
-      "source": "contours",
-      "source-layer": "contour",
-      "filter": [
-        "all",
-        [
-          ">",
-          "height",
-          0
-        ],
-        [
-          "in",
-          "nth_line",
-          100,
-          50,
-          10
-        ]
-      ],
-      "layout": {
-        "visibility": "visible"
-      },
-      "paint": {
-        "line-color": "#d45500",
-        "line-opacity": 0.4,
-        "line-width": 1.1
-      }
-    },
-    {
-      "id": "contour",
-      "type": "line",
-      "source": "contours",
-      "source-layer": "contour",
-      "filter": [
-        "all",
-        [
-          "!in",
-          "nth_line",
-          10,
-          5
-        ],
-        [
-          ">",
-          "height",
-          0
-        ]
-      ],
-      "layout": {
-        "visibility": "visible"
-      },
-      "paint": {
-        "line-color": "#d45500",
-        "line-opacity": 0.3,
-        "line-width": 0.6
-      }
     },
     {
       "id": "landcover-glacier",
