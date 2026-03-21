@@ -1,6 +1,14 @@
 {
+  "version": 8,
   "name": "OSM Bright",
   "sprite": "file:sprite",
+  "glyphs": "dummy:{fontstack}/{range}",
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "dummy:"
+    }
+  },
   "layers": [
     {
       "id": "background",
