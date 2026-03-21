@@ -1,6 +1,14 @@
 {
+  "version": 8,
   "name": "WebVector",
   "sprite": "file:sprite",
+  "glyphs": "dummy:{fontstack}/{range}",
+  "sources": {
+    "smarttiles_de": {
+      "type": "vector",
+      "url": "dummy:"
+    }
+  },
   "layers": [
     {
       "id": "Hintergrund",
