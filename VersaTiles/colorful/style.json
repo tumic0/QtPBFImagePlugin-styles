@@ -1,6 +1,14 @@
 {
+	"version": 8,
 	"name": "Versatiles",
 	"sprite": "file:sprite",
+	"glyphs": "dummy:{fontstack}/{range}",
+	"sources": {
+		"versatiles-shortbread": {
+			"type": "vector",
+			"url": "dummy:"
+		},
+	},
 	"layers": [
 		{
 			"id": "background",
