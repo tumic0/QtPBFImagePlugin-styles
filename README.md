@@ -1,6 +1,7 @@
 # QtPBFImagePlugin styles
 Styles for Mapbox vector tiles (MVT) usable with
-[QtPBFImagePlugin](https://github.com/tumic0/QtPBFImagePlugin).
+[QtPBFImagePlugin](https://github.com/tumic0/QtPBFImagePlugin) and
+[GPXSee](https://github.com/tumic0/GPXSee).
 
 There are (at least) eleven incompatible MVT schemas out there:
 - COROS
